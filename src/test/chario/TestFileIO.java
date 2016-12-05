@@ -43,7 +43,7 @@ public class TestFileIO {
 				) {
 			/*br = new BufferedReader(
 					new FileReader("testCharSample.txt"));*/
-			//파일 읽기시 대상 파일이 없으면 
+			//파일 읽기시 대상 파일이 없으면 에러남
 			String data = br.readLine();
 			
 			System.out.println("파일로 부터 읽은 데이터 : " + data);
